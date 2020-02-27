@@ -70,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
       footerButtons: [
         {
           text: 'Закрыть', type: 'primary', handler() {
-            console.log('Primary btn clicked')
             modal.destroy()
           }
         }
