@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
           text: 'Оставить', type: 'danger', handler() {
             console.log('Danger btn clicked')
-            modal.close()
+            modal.destroy()
           }
         }
       ]
